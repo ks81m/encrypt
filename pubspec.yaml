@@ -1,4 +1,4 @@
-name: encrypt
+name: encrypt_g
 version: 5.0.1
 description: A set of high-level APIs over PointyCastle for two-way cryptography.
 homepage: https://github.com/leocavalcante/encrypt

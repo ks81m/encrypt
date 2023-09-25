@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 
 void main(List<String> args) {
   final argParser = ArgParser();

@@ -57,7 +57,7 @@ Current status is:
 #### AES
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 
 void main() {
   final plainText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
@@ -92,7 +92,7 @@ final encrypter = Encrypter(AES(key, mode: AESMode.cbc));
 - OFB-64 `AESMode.ofb64`
 - SIC `AESMode.sic`
 
-##### No/zero padding 
+##### No/zero padding
 
 To remove padding, pass `null` to the `padding` named parameter on the constructor:
 
@@ -103,7 +103,7 @@ final encrypter = Encrypter(AES(key, mode: AESMode.cbc, padding: null));
 #### Salsa20
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 
 void main() {
   final plainText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit';
@@ -122,7 +122,7 @@ void main() {
 #### [Fernet](https://github.com/fernet/spec/blob/master/Spec.md)
 
 ```dart
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 import 'dart:convert';
 
 void main() {
@@ -150,7 +150,7 @@ void main() {
 
 ```dart
 import 'dart:io';
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 import 'package:pointycastle/asymmetric/api.dart';
 
 void main() {

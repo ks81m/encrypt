@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:encrypt/encrypt.dart';
+import 'package:encrypt_g/encrypt_g.dart';
 
 void main() {
   final salt = Uint8List(16);
